@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="javascripts/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
+<link href="stylesheets/jquery-ui.css" rel="stylesheet">
+
+<script>
+$(document).ready(function(){
+	alert('Iam working!');
+	 $('.bxslider').bxSlider({
+	 	mode: 'fade',
+	    captions: true
+	 });
+});
+
+</script>
+<h1>Welcome to my Portfolio</h1>
+<img src="images/imageOfMe.jpg" alt="picture of me" style="width:304px;height:228px">
+</head>
+<body>
+<ul class="bxslider">
+  <li><img src="images/happy_studio_01.png" title="HappyStudio"/></li>
+  <li><img src="images/creativity_02.png" title="crayola sticker" /></li>
+  <li><img src="images/penguins_02.png" title="penguins of madagascar"/></li>
+  <li><img src="images/super_mario_00.png" title="Super Mario knock off quest for happyness"/></li>
+  <li><img src="images/super_mario_00.png" title="Quest for happiness game play"/></li>
+</ul>
+
+
+</body>
+</html>
